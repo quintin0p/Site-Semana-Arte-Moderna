@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'Fifties Movies';
+    src: url(../fonts/fifties_movies/Fifties\ Movies.ttf) format('truetype');
+    
+}
+
+body {
+    margin: 0;
+    background-color: #F2E8D5;
+    color: #29231F;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1,h2,h3 {
+    color: #29231F;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.cabecalho {
+     background-color: #A6583c;
+    color: aliceblue;
+    padding: 30px 0;
+    text-align: center;
+    margin: 0;
+    font-family:'Fifties Movies';
+    font-size: 105px;
+}
+
+
+.etiqueta {
+    margin-bottom: 5px;
+
+    color: #f1f5f9 ;
+
+    font-size: 13;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu-link {
+    display: inline-block;
+    padding: 8px 12px;
+
+    background-color: #DCCBB0;
+    color: #29231F;
+    
+    border: 1px solid #cdc7c7 ;
+    border-radius: 5px;
+    margin: 5px;
+
+    text-decoration: none;
+    
+}
+
+.nav{
+    text-align: center;
+    padding: 15px;
+}
+
+.titulo-secao {
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid #9C4F34;
+    border-radius: 5px;
+}
+
+
+
+
+
